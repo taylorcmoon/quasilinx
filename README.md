@@ -1,2 +1,2 @@
 (**Quasilink**)
-I  *E
+I self *E

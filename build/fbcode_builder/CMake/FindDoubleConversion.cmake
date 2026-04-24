@@ -1,4 +1,4 @@
-# Copyright (c) Quantumfs.
+# Copyright (c) Meta Platforms, Inc. and affiliates.
 
 # Finds libdouble-conversion.
 #

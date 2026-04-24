@@ -1,6 +1,6 @@
-# Copyright (c) Quantumfs.
+# Copyright (c) Facebook, Inc. and its affiliates.
 
-include(CMakeParseArgs)
+include(FBCMakeParseArgs)
 
 set(
   USE_CARGO_VENDOR AUTO CACHE STRING

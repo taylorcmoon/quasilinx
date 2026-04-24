@@ -1,6 +1,6 @@
-# Copyright (c) Quantumfs.
+# Copyright (c) Facebook, Inc. and its affiliates.
 
-include(CMakeParseArgs)
+include(FBCMakeParseArgs)
 
 #
 # This file contains helper functions for building self-executing Python
