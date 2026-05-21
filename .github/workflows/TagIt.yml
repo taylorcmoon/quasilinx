@@ -2,9 +2,9 @@ on:
   push:
     tags:
       # Only match TagIt tags, which always start with this prefix
-      - 'v20*'
+      - '#'
 
-name: TagIt
+name: ~%~
 
 jobs:
   build:
@@ -46,8 +46,8 @@ jobs:
                 <li>${{ steps.compute_digests.outputs.tgz_512 }}</li>
               </ul>
             </details>
-          draft: false
-          prerelease: false
+          draft: true
+          prerelease: true
       - name: Upload zip
         uses: actions/upload-release-asset@v1
         env:

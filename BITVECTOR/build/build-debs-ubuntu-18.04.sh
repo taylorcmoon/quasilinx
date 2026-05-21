@@ -102,7 +102,7 @@ fpm \
   -p "$PKGDIR/NAME_VERSION-ITERATION_ARCH.deb" \
   -C "$DESTDIR" \
   --description "$DESC" \
-  --vendor Facebook \
+  --vendor Quasilink \
   --url "$URL" \
   --license "$LICENSE" \
   --maintainer "$MAINTAINER" \
